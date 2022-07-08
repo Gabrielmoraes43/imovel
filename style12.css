@@ -1,0 +1,298 @@
+*{
+font-family: 'lato',sans-serif;
+
+}
+
+.bg-primary-color{
+    background-color: #fff;
+}
+
+.bg-secundary-color{
+    background-color: #ece8ea;
+}
+
+.bg-dark-color{
+    background-color: black;
+}
+
+.primary-color{
+    color: #050505;
+}
+.secundary-color{
+    
+}
+
+/*navbar*/
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+    
+}
+#navabar a:hover{
+    color: #a09b9b;
+}
+#navbar a.active{
+    border-bottom: 1px solid #050505;
+    display: flex;
+}
+.nav-intem{
+    
+    font-size: 22px;
+    display: flex;
+    margin: 0 1em;
+}
+.navbar-brand{
+
+
+font-size: 26px;
+}
+
+.navbar-brand img{
+
+width: 220px;
+
+}
+
+.navbar-brand span{
+font-weight: 700px;
+font-size: 1.5em;
+margin-left: 0.5em;
+}
+#navbar-intem.nav-navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*#slide*/
+#slider{
+  margin-top: 13em;  
+  margin-bottom: 1em;
+}
+.carousel-caption{
+    bottom: 3em;
+}
+.carousel-caption h5{
+font-size: 2.5em;
+text-shadow: #000 2px 2px; 
+}
+.btn{
+    border-radius: 0;
+}
+#slider.btn{
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.carousel-control-prev i{
+    color: #111;
+    font-size: 3em;
+}
+.carousel-control-next i{
+color: #111;
+font-size: 3em;
+} 
+.carousel-indicators[data-bs-target]{
+    background-color: #222;
+    opacity: 0.8;
+}
+.carousel-indicators{
+    color: black;
+
+}
+@media (min-width:768px){
+    .carousel-caption{
+        bottom: 15em;
+    }
+    .carousel-caption h5{
+        font-size: 5em;
+        text-shadow: #000 2px 3px; 
+        }
+        
+.carousel-indicators{
+    color: black;
+bottom: 7em;
+}
+}
+/*mini-baners*/
+#mini-banners{
+   margin-bottom: 4em;
+}
+    #mini-banners .card{
+    padding: 2em 0.3em;
+    border-radius: 0;
+    height: 300px;
+    margin-bottom: 1em;
+    }
+    #mini-banners i{
+        font-size: 4em;
+    }
+#mini-banners.card-title{
+    margin-bottom: 1.5em;
+}
+#mini-banners.btn{
+margin-top:1.5em ;
+padding: 0.6em 1.2em;
+}
+@media (min-width:768px){
+#mini-banners{
+    margin-top:-6em ;
+    width: 1170px;
+    margin-left: 520px;
+    height: 490px;
+}
+
+}
+/*destaques*/
+#featured-container{
+    margin-bottom: 4em;
+}
+.title{
+  font-size: 1.75em;  
+  margin-bottom: 0.4em;
+  position: relative;
+}
+.title:before{
+width: 75px;
+border-top: 4px solid #7a7a7a;
+position: absolute;
+content: '';
+bottom: 2em;
+}
+#featured-img{
+    margin-top: 2em;
+}
+#featured-img .col-md-4{
+position:relative;
+cursor: pointer;
+}
+#featured-img .col-md-4:hover>.banner-content{
+    opacity: 0.8;
+}
+.banner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+    transition: 0.5S;
+}
+@media(min-width:768px){
+.title{
+    font-size: 2.4em;
+}
+.title:before{
+    bottom: 1.5em;
+}
+.banner-content{
+    opacity: 0;
+}
+}
+/*info*/
+#info-content{
+margin-bottom: 4em;
+padding: 4em 1em;
+}
+#info-numbers{
+margin: 1.5em 0;
+}
+#infor-numbers {
+    font-size: 13em;
+}
+#info-banner{
+display: flex;
+align-items: center;
+margin-bottom: 2,5em;
+}
+@media(min-width:768px){
+    #info-content{
+        padding: 3.5em;
+    }
+}
+
+/*footer-top*/
+#footer{
+    padding: 4em 2em;
+    
+    
+}
+#footer-top{
+    margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i{
+color: #fff;
+}
+#social-icons{
+    text-align: right;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#social-icons i:hover{
+color:#7a7a7a;
+}
+
+/*foter detalis*/
+#footer-details{
+    margin-bottom: 3em;
+}
+#news-container,
+#contact-container,
+#link-container{
+padding: 0;
+border: 0;
+margin-bottom: 2em;
+}
+#footer-details{
+color: #fff;
+margin-bottom: 1.5em;
+}
+#news-container input{
+border-radius: 0;
+border: none;
+}
+#links-container li{
+    margin-bottom: 0.5em;
+}
+#links-container a{
+text-decoration: none;
+}
+
+#links-container a:hover{
+    color: #fff;
+}
+#secundary-color{
+    color: #7a7a7a;
+}
+/*footer-bottom*/
+#footer-bottom{
+    border-top: 1px solid #7a7a7a;
+    padding-top: 3em;
+    margin-top: 70px;
+}
+h4{
+    color: #fff;
+}
+
+#footer-bottom i{
+color: red;
+}
+@media(min-width:768px){
+    #news-container{
+        padding-right:3em;
+    }
+    #links-container{
+        padding-left:3em;
+    }
+    #contact-container{
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
+    }
+}
+
